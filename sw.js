@@ -80,10 +80,6 @@ self.__precacheManifest = [
     "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
-    "url": "confidentialite.2f395007.js",
-    "revision": "fdaad1887614bbc6822d8a5abb2234ff"
-  },
-  {
     "url": "confidentialite.61ebdf7a.js",
     "revision": "4c21f6e832e62b3c995d15e99b14f254"
   },
@@ -92,16 +88,12 @@ self.__precacheManifest = [
     "revision": "b6a24c8fab09b560551b8db2716a2090"
   },
   {
-    "url": "confidentialite.daef9682.css",
-    "revision": "9caf330c4bbb593fbc8d2eb58a9e085c"
-  },
-  {
     "url": "confidentialite.faa79232.css",
     "revision": "d93aee5cf723ea05fdaebefb663677ea"
   },
   {
     "url": "confidentialite.faa79232.js",
-    "revision": "36a3c9a819aadf7d102353a980efbe0b"
+    "revision": "1bffa24e7f781a837d2c7e347f408867"
   },
   {
     "url": "confidentialite.html",
@@ -124,40 +116,28 @@ self.__precacheManifest = [
     "revision": "674c9c4ef1e4c7ea9de1218ee0bfd0cf"
   },
   {
-    "url": "index.html",
-    "revision": "2289fcca9a126e645de4777b6240e156"
+    "url": "grid.html",
+    "revision": "fc5caa3462dbe6dcaa24c321a9800938"
   },
   {
-    "url": "logo_dnum_dark.0fe33c5b.svg",
-    "revision": "da8bdc57d4f231585216c53da752d00a"
+    "url": "index.html",
+    "revision": "1e4dd550588ae28aa17dca7270448d5a"
   },
   {
     "url": "logo_dnum_dark.e9bb3588.svg",
     "revision": "da8bdc57d4f231585216c53da752d00a"
   },
   {
-    "url": "logo_dnum.19ebc682.svg",
-    "revision": "3a41bfa41e4671414da29db168c37d66"
-  },
-  {
     "url": "logo_dnum.411ea756.svg",
     "revision": "3a41bfa41e4671414da29db168c37d66"
   },
   {
-    "url": "main.07621043.js",
-    "revision": "68b3ecb7d8d01dfd6fbf62240d459c9c"
-  },
-  {
-    "url": "main.46abc703.js",
-    "revision": "0a91735ebd12b37d0d43cc2fe59a131b"
+    "url": "main.93de3d16.js",
+    "revision": "047cb13a384a61847091291f38add4b1"
   },
   {
     "url": "main.c78b95e8.css",
     "revision": "de9511575d474e964625afe3559c7a6e"
-  },
-  {
-    "url": "main.daef9682.css",
-    "revision": "7d236ed06e460d3f2096e07384bbc079"
   },
   {
     "url": "main.fb6bbcaf.css",
@@ -212,6 +192,10 @@ self.__precacheManifest = [
     "revision": "6823b6d87f43d208b17ff81e178f9ae9"
   },
   {
+    "url": "pdf-grid-helper.6b7493fe.js",
+    "revision": "3cef0e8f81058153c9d255f2f7356dce"
+  },
+  {
     "url": "safari-pinned-tab.1551797e.svg",
     "revision": "f53452e6ac8760f12bab91672e91d39b"
   },
@@ -221,7 +205,7 @@ self.__precacheManifest = [
   },
   {
     "url": "./",
-    "revision": "00b421bd8d633e26d274138b698887ec"
+    "revision": "c18f7671749c6ef664e2d9cbfd14af26"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
