@@ -2,7 +2,10 @@
     "name": "Générateur d'attestation de déplacement dérogatoire",
     "short_name": "Déplacement covid-19",
     "description": "L'application officielle du gouvernement pour la génération d'attestation de déplacement dérogatoire dématérialisée.",
-    "categories": ["government", "health"],
+    "categories": [
+        "government",
+        "health"
+    ],
     "lang": "fr-FR",
     "icons": [
         {
@@ -39,5 +42,7 @@
     "orientation": "portrait-primary",
     "theme_color": "#ced4da",
     "background_color": "#000191",
-    "display": "minimal-ui"
+    "display": "standalone",
+    "scope": "/attestation-deplacement-derogatoire-q4-2020/",
+    "start_url": "https://mbrechet.github.io/attestation-deplacement-derogatoire-q4-2020"
 }
