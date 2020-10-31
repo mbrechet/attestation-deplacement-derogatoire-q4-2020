@@ -6,6 +6,8 @@ import formData from '../form-data.json'
 
 import { $, appendTo, createElement } from './dom-utils'
 
+import { getData} from './local-storage'
+
 const createTitle = () => {
   const h2 = createElement('h2', { className: 'titre-2', innerHTML: 'Remplissez en ligne votre déclaration numérique : ' })
   const p = createElement('p', { className: 'msg-info', innerHTML: 'Tous les champs sont obligatoires.' })
@@ -60,6 +62,10 @@ const createFormGroup = ({
 
   const input = createElement('input', inputAttrs)
 
+  const previousValue = getData(name);
+  if(previousValue){
+    input.value = previousValue;
+  }
   if (name === 'heuresortie') {
     input.value = getCurrentTime()
   }

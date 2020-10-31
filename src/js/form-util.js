@@ -2,6 +2,7 @@ import { $, $$, downloadBlob } from './dom-utils'
 import { addSlash, getFormattedDate } from './util'
 import pdfBase from '../certificate.pdf'
 import { generatePdf } from './pdf-util'
+import { setData} from './local-storage'
 
 const conditions = {
   '#field-firstname': {
@@ -65,6 +66,9 @@ export function getProfile (formInputs) {
     if (field.id === 'field-datesortie') {
       const dateSortie = field.value.split('-')
       value = `${dateSortie[2]}/${dateSortie[1]}/${dateSortie[0]}`
+    }else {
+      // on ne sauvegarde pas la date de sortie
+      setData(field.name, value);
     }
     fields[field.id.substring('field-'.length)] = value
   }
