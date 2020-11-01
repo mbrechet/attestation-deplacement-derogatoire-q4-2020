@@ -1,6 +1,6 @@
 {
   "name": "attestation-derogatoire-de-deplacement-avec-sauvegarde-info-locale",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Générateur d'attestation de déplacement dérogatoire'",
   "main": "certificate.js",
   "scripts": {
