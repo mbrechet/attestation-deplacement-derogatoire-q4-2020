@@ -44,5 +44,5 @@
     "background_color": "#000191",
     "display": "standalone",
     "scope": "/attestation-deplacement-derogatoire-q4-2020/",
-    "start_url": "https://mbrechet.github.io/attestation-deplacement-derogatoire-q4-2020/"
+    "start_url": "/attestation-deplacement-derogatoire-q4-2020/index.html"
 }
