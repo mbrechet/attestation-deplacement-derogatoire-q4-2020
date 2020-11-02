@@ -1,3 +1,5 @@
+import removeAccents from 'remove-accents'
+
 import { $, $$, downloadBlob } from './dom-utils'
 import { addSlash, getFormattedDate } from './util'
 import pdfBase from '../certificate.pdf'
@@ -58,7 +60,14 @@ export function setReleaseDateTime (releaseDateInput) {
   const loadedDate = new Date()
   releaseDateInput.value = getFormattedDate(loadedDate)
 }
-
+export function toAscii (string) {
+  if (typeof string !== 'string') {
+    throw new Error('Need string')
+  }
+  const accentsRemoved = removeAccents(string)
+  const asciiString = accentsRemoved.replace(/[^\x00-\x7F]/g, '') // eslint-disable-line no-control-regex
+  return asciiString
+}
 export function getProfile (formInputs) {
   const fields = {}
   for (const field of formInputs) {
@@ -69,6 +78,9 @@ export function getProfile (formInputs) {
     }else {
       // on ne sauvegarde pas la date de sortie
       setData(field.name, value);
+    }
+    if (typeof value === 'string') {
+      value = toAscii(value)
     }
     fields[field.id.substring('field-'.length)] = value
   }
@@ -130,8 +142,6 @@ export function prepareInputs (formInputs, reasonInputs, reasonFieldset, reasonA
     if (invalid) {
       return
     }
-
-    console.log(getProfile(formInputs), reasons)
 
     const pdfBlob = await generatePdf(getProfile(formInputs), reasons, pdfBase)
 
