@@ -28,6 +28,14 @@ self.__precacheManifest = [
     "revision": "71c32dc8b4da4840d61a1796a2bc230b"
   },
   {
+    "url": "android-chrome-192x192.4ad985c0.png",
+    "revision": "71c32dc8b4da4840d61a1796a2bc230b"
+  },
+  {
+    "url": "android-chrome-512x512.47463c43.png",
+    "revision": "8bf8012c4f4ae251d660b4739171b7ed"
+  },
+  {
     "url": "android-chrome-512x512.ae40f73d.png",
     "revision": "8bf8012c4f4ae251d660b4739171b7ed"
   },
@@ -36,11 +44,27 @@ self.__precacheManifest = [
     "revision": "a6e447e90b691da286286ab18849adac"
   },
   {
+    "url": "apple-touch-icon-120x120-precomposed.5fbfa6af.png",
+    "revision": "a6e447e90b691da286286ab18849adac"
+  },
+  {
     "url": "apple-touch-icon-120x120.044c6f3f.png",
     "revision": "a6e447e90b691da286286ab18849adac"
   },
   {
+    "url": "apple-touch-icon-120x120.ad0fe6f0.png",
+    "revision": "a6e447e90b691da286286ab18849adac"
+  },
+  {
+    "url": "apple-touch-icon-precomposed.887585e1.png",
+    "revision": "de5e22b15cf20cb0d586a036d714ee3f"
+  },
+  {
     "url": "apple-touch-icon-precomposed.fdeabd24.png",
+    "revision": "de5e22b15cf20cb0d586a036d714ee3f"
+  },
+  {
+    "url": "apple-touch-icon.aaba99a7.png",
     "revision": "de5e22b15cf20cb0d586a036d714ee3f"
   },
   {
@@ -52,6 +76,10 @@ self.__precacheManifest = [
     "revision": "623cac53a40c141642b22bf50fe14628"
   },
   {
+    "url": "certificate.9e278a37.pdf",
+    "revision": "623cac53a40c141642b22bf50fe14628"
+  },
+  {
     "url": "confidentialite.61ebdf7a.js",
     "revision": "4c21f6e832e62b3c995d15e99b14f254"
   },
@@ -60,8 +88,20 @@ self.__precacheManifest = [
     "revision": "b6a24c8fab09b560551b8db2716a2090"
   },
   {
+    "url": "confidentialite.faa79232.css",
+    "revision": "d93aee5cf723ea05fdaebefb663677ea"
+  },
+  {
+    "url": "confidentialite.faa79232.js",
+    "revision": "c95fe171770ac16f8aa92d70d3751d1e"
+  },
+  {
     "url": "confidentialite.html",
     "revision": "2bba0f684e8f1b2ed1bb82ac341c8ccf"
+  },
+  {
+    "url": "favicon-16x16.a0a61c08.png",
+    "revision": "652605ae0182d51781ab0be639ad2bda"
   },
   {
     "url": "favicon-16x16.a4687270.png",
@@ -72,16 +112,28 @@ self.__precacheManifest = [
     "revision": "674c9c4ef1e4c7ea9de1218ee0bfd0cf"
   },
   {
-    "url": "index.html",
-    "revision": "00a2f5a99e90c7c624aa7754b800be04"
+    "url": "favicon-32x32.bd6b9d71.png",
+    "revision": "674c9c4ef1e4c7ea9de1218ee0bfd0cf"
   },
   {
-    "url": "main.9980e618.js",
-    "revision": "2b016f176b44ef90994714f50620284a"
+    "url": "index.html",
+    "revision": "11e4690f1abf0f14eeec5dfe0257da39"
   },
   {
     "url": "main.c78b95e8.css",
     "revision": "de9511575d474e964625afe3559c7a6e"
+  },
+  {
+    "url": "main.d63c8ad5.js",
+    "revision": "49ba6de91d4918b584fa7f7541052abd"
+  },
+  {
+    "url": "main.fb6bbcaf.css",
+    "revision": "a6fed0b15468b6a6e4c41d251c35f2ec"
+  },
+  {
+    "url": "main.fb6bbcaf.js",
+    "revision": "950e93a0ff04f864482033ef641c0693"
   },
   {
     "url": "marianne-bold-webfont.1505950c.woff2",
@@ -92,7 +144,23 @@ self.__precacheManifest = [
     "revision": "0bcc99dd4adfb78e11098fedfe531cbb"
   },
   {
+    "url": "marianne-bold-webfont.db730b38.woff",
+    "revision": "0bcc99dd4adfb78e11098fedfe531cbb"
+  },
+  {
+    "url": "marianne-bold-webfont.f8428997.woff2",
+    "revision": "e67f6cefe32cc39f909e605c8d6337a9"
+  },
+  {
+    "url": "marianne-regular-webfont.0529dd78.woff2",
+    "revision": "d2c09e5f58d8360f541e2a8726c33587"
+  },
+  {
     "url": "marianne-regular-webfont.0a959359.woff",
+    "revision": "89f4f2326c77429e98693cf83703face"
+  },
+  {
+    "url": "marianne-regular-webfont.78905f1b.woff",
     "revision": "89f4f2326c77429e98693cf83703face"
   },
   {
@@ -104,7 +172,15 @@ self.__precacheManifest = [
     "revision": "345794cee228a40837ab654184cd2c96"
   },
   {
+    "url": "MIN_Interieur_RVB_dark.375fe714.svg",
+    "revision": "345794cee228a40837ab654184cd2c96"
+  },
+  {
     "url": "MIN_Interieur_RVB.124e26ea.svg",
+    "revision": "6823b6d87f43d208b17ff81e178f9ae9"
+  },
+  {
+    "url": "MIN_Interieur_RVB.6e85e781.svg",
     "revision": "6823b6d87f43d208b17ff81e178f9ae9"
   },
   {
@@ -112,8 +188,12 @@ self.__precacheManifest = [
     "revision": "f53452e6ac8760f12bab91672e91d39b"
   },
   {
+    "url": "safari-pinned-tab.a198a050.svg",
+    "revision": "f53452e6ac8760f12bab91672e91d39b"
+  },
+  {
     "url": "./",
-    "revision": "71a10082d2d85efa1e098ec555dbbf09"
+    "revision": "8f4f3b29a77eab1a71673a78c1076294"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
