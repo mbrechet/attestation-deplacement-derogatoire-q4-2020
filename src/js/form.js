@@ -15,11 +15,6 @@ const createTitle = () => {
 }
 // createElement('div', { className: 'form-group' })
 
-const getCurrentTime = () => {
-  const date = new Date()
-  return date.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })
-}
-
 const createFormGroup = ({
   autocomplete = false,
   autofocus = false,
@@ -75,6 +70,8 @@ const createFormGroup = ({
   }
   const validity = createElement('span', validityAttrs)
 
+  const example = createElement('p', { className: 'exemple  basis-100' })
+
   const appendToFormGroup = appendTo(formGroup)
   appendToFormGroup(labelEl)
   appendToFormGroup(inputGroup)
@@ -82,6 +79,7 @@ const createFormGroup = ({
   const appendToInputGroup = appendTo(inputGroup)
   appendToInputGroup(input)
   appendToInputGroup(validity)
+  appendToInputGroup(example)
 
   return formGroup
 }
